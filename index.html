@@ -1,0 +1,334 @@
+<!DOCTYPE html>  <html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Chitão - O Namorado da Expedição Sankyu</title>  
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+    <style>  
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');  body {  
+        font-family: 'Poppins', sans-serif;  
+        background-color: #fef6e4;  
+    }  
+      
+    .hero-pattern {  
+        background-color: #f3d2c1;  
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f582ae' fill-opacity='0.2'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");  
+    }  
+      
+    .heart-beat {  
+        animation: heartbeat 1.5s ease-in-out infinite both;  
+    }  
+      
+    @keyframes heartbeat {  
+        from {  
+            transform: scale(1);  
+            transform-origin: center center;  
+            animation-timing-function: ease-out;  
+        }  
+        10% {  
+            transform: scale(0.91);  
+            animation-timing-function: ease-in;  
+        }  
+        17% {  
+            transform: scale(0.98);  
+            animation-timing-function: ease-out;  
+        }  
+        33% {  
+            transform: scale(0.87);  
+            animation-timing-function: ease-in;  
+        }  
+        45% {  
+            transform: scale(1);  
+            animation-timing-function: ease-out;  
+        }  
+    }  
+      
+    .rainbow-text {  
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);  
+        -webkit-background-clip: text;  
+        background-clip: text;  
+        color: transparent;  
+    }  
+</style>
+
+</head>  
+<body>  
+    <!-- Header/Navigation -->  
+    <header class="hero-pattern py-6 shadow-lg">  
+        <div class="container mx-auto px-4">  
+            <div class="flex justify-between items-center">  
+                <div class="flex items-center space-x-2">  
+                    <i class="fas fa-heart text-pink-600 text-3xl heart-beat"></i>  
+                    <h1 class="text-3xl font-bold text-pink-700">Chitão Sankyu</h1>  
+                </div>  
+                <nav class="hidden md:block">  
+                    <ul class="flex space-x-8">  
+                        <li><a href="#sobre" class="text-pink-800 hover:text-pink-600 font-bold">Sobre</a></li>  
+                        <li><a href="#galeria" class="text-pink-800 hover:text-pink-600 font-bold">Galeria</a></li>  
+                        <li><a href="#curiosidades" class="text-pink-800 hover:text-pink-600 font-bold">Curiosidades</a></li>  
+                        <li><a href="#contato" class="text-pink-800 hover:text-pink-600 font-bold">Contato</a></li>  
+                    </ul>  
+                </nav>  
+                <button class="md:hidden text-pink-800">  
+                    <i class="fas fa-bars text-2xl"></i>  
+                </button>  
+            </div>  
+        </div>  
+    </header>  <!-- Hero Section -->  
+<section class="hero-pattern py-20">  
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">  
+        <div class="md:w-1/2 mb-10 md:mb-0">  
+            <h2 class="text-5xl md:text-6xl font-bold text-pink-700 mb-6">Chitão <span class="rainbow-text">❤</span></h2>  
+            <p class="text-xl text-pink-800 mb-8">O expeditor mais charmoso da Sankyu, namorado da expedição e orgulhoso de quem ele é!</p>  
+            <div class="flex space-x-4">  
+                <button class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300">  
+                    <i class="fas fa-heart mr-2"></i> Enviar Amor  
+                </button>  
+                <button class="border-2 border-pink-600 text-pink-700 hover:bg-pink-100 font-bold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300">  
+                    <i class="fas fa-comment mr-2"></i> Mensagem  
+                </button>  
+            </div>  
+        </div>  
+        <div class="md:w-1/2 flex justify-center">  
+            <div class="relative">  
+                <div class="w-64 h-64 md:w-80 md:h-80 bg-pink-400 rounded-full flex items-center justify-center shadow-2xl overflow-hidden border-8 border-white">  
+                    <img src="https://placehold.co/400x400/f582ae/white?text=Chitão" alt="Chitão" class="w-full h-full object-cover">  
+                </div>  
+                <div class="absolute -bottom-5 -right-5 bg-yellow-300 rounded-full p-4 shadow-lg">  
+                    <i class="fas fa-star text-yellow-700 text-3xl"></i>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</section>  
+
+<!-- About Section -->  
+<section id="sobre" class="py-20 bg-white">  
+    <div class="container mx-auto px-4">  
+        <h2 class="text-4xl font-bold text-center text-pink-700 mb-16">Sobre o Chitão</h2>  
+          
+        <div class="flex flex-col md:flex-row items-center mb-12">  
+            <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">  
+                <div class="w-48 h-48 bg-pink-200 rounded-full flex items-center justify-center shadow-lg border-4 border-pink-300">  
+                    <i class="fas fa-box-open text-pink-600 text-6xl"></i>  
+                </div>  
+            </div>  
+            <div class="md:w-2/3 md:pl-12">  
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">Expeditor da Sankyu</h3>  
+                <p class="text-gray-700 mb-4">Chitão é o coração da expedição na Sankyu, garantindo que todos os pacotes cheguem ao seu destino com amor e cuidado. Seu trabalho é impecável e todos adoram sua energia contagiante.</p>  
+                <p class="text-gray-700">Ele transforma o ambiente de trabalho com sua alegria e dedicação, fazendo da Sankyu um lugar especial para todos.</p>  
+            </div>  
+        </div>  
+          
+        <div class="flex flex-col md:flex-row items-center">  
+            <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center order-1 md:order-2">  
+                <div class="w-48 h-48 bg-blue-200 rounded-full flex items-center justify-center shadow-lg border-4 border-blue-300">  
+                    <i class="fas fa-heart text-red-600 text-6xl"></i>  
+                </div>  
+            </div>  
+            <div class="md:w-2/3 md:pr-12 order-2 md:order-1">  
+                <h3 class="text-2xl font-bold text-blue-600 mb-4">Namorado da Expedição</h3>  
+                <p class="text-gray-700 mb-4">Chitão é conhecido como o "namorado da expedição" por seu jeito carinhoso e atencioso com todos. Ele não esconde quem é e vive sua vida com orgulho e autenticidade.</p>  
+                <p class="text-gray-700">Seu amor pela vida e pelas pessoas ao seu redor inspira todos que têm a sorte de conhecê-lo.</p>  
+            </div>  
+        </div>  
+    </div>  
+</section>  
+
+<!-- Gallery Section -->  
+<section id="galeria" class="py-20 bg-pink-50">  
+    <div class="container mx-auto px-4">  
+        <h2 class="text-4xl font-bold text-center text-pink-700 mb-16">Galeria do Chitão</h2>  
+          
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">  
+            <!-- Photo 1 -->  
+            <div class="relative group overflow-hidden rounded-xl shadow-lg transform hover:scale-105 transition duration-300">  
+                <img src="https://placehold.co/600x400/f582ae/white?text=Chitão+Trabalhando" alt="Chitão trabalhando" class="w-full h-64 object-cover">  
+                <div class="absolute inset-0 bg-pink-600 bg-opacity-0 group-hover:bg-opacity-30 flex items-center justify-center transition duration-300">  
+                    <i class="fas fa-search-plus text-white text-4xl opacity-0 group-hover:opacity-100 transform group-hover:scale-150 transition duration-300"></i>  
+                </div>  
+            </div>  
+              
+            <!-- Photo 2 -->  
+            <div class="relative group overflow-hidden rounded-xl shadow-lg transform hover:scale-105 transition duration-300">  
+                <img src="https://placehold.co/600x400/8bd3dd/white?text=Chitão+Sorridente" alt="Chitão sorridente" class="w-full h-64 object-cover">  
+                <div class="absolute inset-0 bg-blue-400 bg-opacity-0 group-hover:bg-opacity-30 flex items-center justify-center transition duration-300">  
+                    <i class="fas fa-search-plus text-white text-4xl opacity-0 group-hover:opacity-100 transform group-hover:scale-150 transition duration-300"></i>  
+                </div>  
+            </div>  
+              
+            <!-- Photo 3 -->  
+            <div class="relative group overflow-hidden rounded-xl shadow-lg transform hover:scale-105 transition duration-300">  
+                <img src="https://placehold.co/600x400/f3d2c1/white?text=Chitão+Com+Amigos" alt="Chitão com amigos" class="w-full h-64 object-cover">  
+                <div class="absolute inset-0 bg-yellow-400 bg-opacity-0 group-hover:bg-opacity-30 flex items-center justify-center transition duration-300">  
+                    <i class="fas fa-search-plus text-white text-4xl opacity-0 group-hover:opacity-100 transform group-hover:scale-150 transition duration-300"></i>  
+                </div>  
+            </div>  
+        </div>  
+          
+        <div class="text-center mt-12">  
+            <button class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition duration-300">  
+                <i class="fas fa-images mr-2"></i> Ver Mais Fotos  
+            </button>  
+        </div>  
+    </div>  
+</section>  
+
+<!-- Fun Facts Section -->  
+<section id="curiosidades" class="py-20 bg-gradient-to-r from-pink-400 to-purple-500 text-white">  
+    <div class="container mx-auto px-4">  
+        <h2 class="text-4xl font-bold text-center mb-16">Curiosidades sobre o Chitão</h2>  
+          
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">  
+            <!-- Fact 1 -->  
+            <div class="bg-white bg-opacity-20 rounded-xl p-6 shadow-lg backdrop-filter backdrop-blur-sm transform hover:scale-105 transition duration-300">  
+                <div class="text-4xl mb-4 text-center">  
+                    <i class="fas fa-box-open"></i>  
+                </div>  
+                <h3 class="text-xl font-bold mb-3 text-center">Expedição Perfeita</h3>  
+                <p class="text-center">Chitão já expediu mais de 10,000 pacotes sem nenhum erro. Sua precisão é lendária!</p>  
+            </div>  
+              
+            <!-- Fact 2 -->  
+            <div class="bg-white bg-opacity-20 rounded-xl p-6 shadow-lg backdrop-filter backdrop-blur-sm transform hover:scale-105 transition duration-300">  
+                <div class="text-4xl mb-4 text-center">  
+                    <i class="fas fa-heart"></i>  
+                </div>  
+                <h3 class="text-xl font-bold mb-3 text-center">Coração de Ouro</h3>  
+                <p class="text-center">Ele sempre tem um sorriso e uma palavra amiga para todos na Sankyu.</p>  
+            </div>  
+              
+            <!-- Fact 3 -->  
+            <div class="bg-white bg-opacity-20 rounded-xl p-6 shadow-lg backdrop-filter backdrop-blur-sm transform hover:scale-105 transition duration-300">  
+                <div class="text-4xl mb-4 text-center">  
+                    <i class="fas fa-rainbow"></i>  
+                </div>  
+                <h3 class="text-xl font-bold mb-3 text-center">Orgulho LGBTQ+</h3>  
+                <p class="text-center">Chitão vive sua verdade com orgulho e inspira outros a fazerem o mesmo.</p>  
+            </div>  
+              
+            <!-- Fact 4 -->  
+            <div class="bg-white bg-opacity-20 rounded-xl p-6 shadow-lg backdrop-filter backdrop-blur-sm transform hover:scale-105 transition duration-300">  
+                <div class="text-4xl mb-4 text-center">  
+                    <i class="fas fa-users"></i>  
+                </div>  
+                <h3 class="text-xl font-bold mb-3 text-center">Popularidade</h3>  
+                <p class="text-center">Ele é o funcionário mais querido da Sankyu, todos adoram trabalhar com ele!</p>  
+            </div>  
+        </div>  
+    </div>  
+</section>  
+
+<!-- Testimonials Section -->  
+<section class="py-20 bg-white">  
+    <div class="container mx-auto px-4">  
+        <h2 class="text-4xl font-bold text-center text-pink-700 mb-16">O que dizem sobre o Chitão</h2>  
+          
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">  
+            <!-- Testimonial 1 -->  
+            <div class="bg-pink-50 rounded-xl p-6 shadow-lg transform hover:scale-105 transition duration-300">  
+                <div class="flex items-center mb-4">  
+                    <div class="w-12 h-12 rounded-full bg-pink-200 flex items-center justify-center mr-4">  
+                        <i class="fas fa-user text-pink-600"></i>  
+                    </div>  
+                    <div>  
+                        <h4 class="font-bold text-pink-700">João da Recepção</h4>  
+                        <p class="text-sm text-pink-600">Sankyu</p>  
+                    </div>  
+                </div>  
+                <p class="text-gray-700">"Chitão é a pessoa mais alegre que conheço! Ele transforma nosso dia de trabalho com sua energia positiva e sempre está disposto a ajudar."</p>  
+                <div class="mt-4 text-yellow-400">  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                </div>  
+            </div>  
+              
+            <!-- Testimonial 2 -->  
+            <div class="bg-blue-50 rounded-xl p-6 shadow-lg transform hover:scale-105 transition duration-300">  
+                <div class="flex items-center mb-4">  
+                    <div class="w-12 h-12 rounded-full bg-blue-200 flex items-center justify-center mr-4">  
+                        <i class="fas fa-user text-blue-600"></i>  
+                    </div>  
+                    <div>  
+                        <h4 class="font-bold text-blue-700">Maria do RH</h4>  
+                        <p class="text-sm text-blue-600">Sankyu</p>  
+                    </div>  
+                </div>  
+                <p class="text-gray-700">"Nunca vi alguém tão dedicado e amoroso no trabalho como o Chitão. Ele é um exemplo para todos nós na empresa."</p>  
+                <div class="mt-4 text-yellow-400">  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                </div>  
+            </div>  
+              
+            <!-- Testimonial 3 -->  
+            <div class="bg-purple-50 rounded-xl p-6 shadow-lg transform hover:scale-105 transition duration-300">  
+                <div class="flex items-center mb-4">  
+                    <div class="w-12 h-12 rounded-full bg-purple-200 flex items-center justify-center mr-4">  
+                        <i class="fas fa-user text-purple-600"></i>  
+                    </div>  
+                    <div>  
+                        <h4 class="font-bold text-purple-700">Carlos do Entregas</h4>  
+                        <p class="text-sm text-purple-600">Sankyu</p>  
+                    </div>  
+                </div>  
+                <p class="text-gray-700">"Chitão não é só um colega de trabalho, é um grande amigo. Ele me ensinou a importância de ser autêntico e amar quem você é."</p>  
+                <div class="mt-4 text-yellow-400">  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star"></i>  
+                    <i class="fas fa-star-half-alt"></i>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</section>  
+
+<!-- Contact Section -->  
+<section id="contato" class="py-20 bg-pink-100">  
+    <div class="container mx-auto px-4">  
+        <h2 class="text-4xl font-bold text-center text-pink-700 mb-16">Mande um Alô para o Chitão</h2>  
+          
+        <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">  
+            <div class="md:flex">  
+                <div class="md:w-1/2 bg-pink-600 p-8 text-white flex flex-col justify-center">  
+                    <h3 class="text-2xl font-bold mb-4">Entre em Contato</h3>  
+                    <p class="mb-6">Chitão adora receber mensagens de carinho e apoio! Mande uma mensagem para ele.</p>  
+                    <div class="space-y-4">  
+                        <div class="flex items-center">  
+                            <i class="fas fa-envelope mr-4 text-xl"></i>  
+                            <span>chitao@sankyu.com</span>  
+                        </div>  
+                        <div class="flex items-center">  
+                            <i class="fas fa-phone-alt mr-4 text-xl"></i>  
+                            <span>(11) 98765-4321</span>  
+                        </div>  
+                        <div class="flex items-center">  
+                            <i class="fas fa-map-marker-alt mr-4 text-xl"></i>  
+                            <span>Sankyu Expedição, São Paulo</span>  
+                        </div>  
+                    </div>  
+                </div>  
+                <div class="md:w-1/2 p-8">  
+                    <form>  
+                        <div class="mb-4">  
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Seu Nome</label>  
+                            <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" id="name" type="text" placeholder="Digite seu nome">  
+                        </div>  
+                        <div class="mb-4">  
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Seu Email</label>  
+                            <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" id="email" type="email" placeholder="Digite seu email">  
+                        </div>  
+                        <div class="mb-6">  
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Sua Mensagem</label>  
+                            <textarea class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500" id="message" rows="4" placeholder="Digite sua mensagem para o Chitão"></textarea>  
+                        </div>  
+                        <div class="flex items-center justify-between">
